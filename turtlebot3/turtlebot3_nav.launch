@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch"/>
+    <include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch">
+        <arg name="slam_methods" value="gmapping"/>
+    </include>
+    <node name="navigation_action_server" pkg="turtlebot3_nav" type="navigation_action_server" output="screen"/>
+    <node name="goal_service_server" pkg="turtlebot3_nav" type="goal_service_server" output="screen"/>
+</launch>

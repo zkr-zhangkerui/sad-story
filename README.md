@@ -1,2 +1,2 @@
 # sad-story
-record some code ,include some homework and so on
+上传一些自己在大二以及目前做的一些东西的代码和记录，包括简单的数字图像处理，单点定位算法，卡尔曼滤波，最小二乘等等，算是记录一下自己做过的东西，想要积少成多，慢慢形成一个完整的体系
